@@ -1,0 +1,19 @@
+[project]
+name = "aes-m14912123"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "HDTHREE", email = "hd3nni4@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.4.2",
+]
+
+[project.scripts]
+run_aes_m14912123 = "aes_m14912123.main:main"
+
+[build-system]
+requires = ["uv_build>=0.8.12,<0.9.0"]
+build-backend = "uv_build"
